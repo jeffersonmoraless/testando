@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     background-color: azure;
+}
+header{
+   background-color: rgb(128, 126, 126);
+   text-align: center;
+   padding:25px ;
+}
+#corpo{
+    background-color: rgb(248, 230, 230);
+    min-height: 79.80vh
+}
+footer{
+    background-color: rgb(128, 126, 126);
+    text-align: center;
+    padding:10px ;
+ }
+ .opcao{
+    background-color: red;
+    width: 500px;
+    padding: 35px ;
+    margin: auto;
+
+ }
+#mult{
+    margin-left:5px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+button{
+    margin-left: 10px;
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: rgb(113, 250, 113);
+}
+button:hover{
+    cursor: pointer;
+}
+#teste{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    background-color: blue;
+}
+section{
+    background-color: aqua;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+#grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#jogo{
+    background-color: rgb(177, 72, 72);
+    display: flex;
+    padding: 10px;
+}
+input{
+    width: 100%;
+}
+#pVs{
+    margin-left: 10px;
+    margin-right: 10px
+    ;
+}
